@@ -23,7 +23,7 @@ $headers = [
     'X-Ig-App-Id: 936619743392459'
 ];
 
-$getStoriesIg = cURL("https://www.instagram.com/api/v1/feed/user/8143927324/?count=200", false, $cookie, $headers);
+$getStoriesIg = cURL("https://www.instagram.com/api/v1/feed/user/8143927324/?count=20", false, $cookie, $headers);
 $datanya = json_decode($getStoriesIg["content"])->items;
 //print_r($datanya); //data fullnya di sini kalau mau liat
 
