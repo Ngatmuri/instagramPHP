@@ -26,14 +26,7 @@ $getStoriesIg = cURL("https://www.instagram.com/api/v1/feed/reels_tray/?is_follo
 $datanya = json_decode($getStoriesIg["content"])->tray;
 # print_r($datanya); //data fullnya di sini kalau mau liat
 
-$a =('
-__________                                          .__                
-\______   \_______  ____   ____  ____   ______ _____|__| ____    ____  
- |     ___/\_  __ \/  _ \_/ ___\/ __ \ /  ___//  ___/  |/    \  / ___\ 
- |    |     |  | \(  <_> )  \__\  ___/ \___ \ \___ \|  |   |  \/ /_/  >
- |____|     |__|   \____/ \___  >___  >____  >____  >__|___|  /\___  / 
-                              \/    \/     \/     \/        \//_____/  
-');
+$a =('Proses....');
 print $a;
 
 $logsFolder = 'folderLogs/';
